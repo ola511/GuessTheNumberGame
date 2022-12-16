@@ -1,0 +1,29 @@
+h2 {
+  color: green;
+  margin-bottom: .5em;
+}
+
+a{
+  color: limegreen;
+  font-weight: bolder;
+}
+
+.problem_text{
+  font-weight: bold;
+  color:  blueviolet;
+}
+
+span.wrong{
+  color:red;
+  font-weight:bolder
+}
+
+input[type="text"]{
+  width: 3em;
+  vertical-align: baseline;
+  border-radius: 6px;
+  border: thin solid gray;
+  padding-left: 5px;
+  font-size: 100% ;
+}
+

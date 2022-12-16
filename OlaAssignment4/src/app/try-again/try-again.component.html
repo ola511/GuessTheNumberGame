@@ -1,0 +1,16 @@
+<h1>Try Again</h1>
+<h2>Enter your answer</h2>
+<p>
+  <label for="answer" class="problem_text">
+
+  </label>
+  <input id="answer" type="text" #userAnswer>
+</p>
+<p>
+  <button (click)='check(userAnswer.value)'>Submit</button>
+</p>
+<p>
+  <a routerLink="/see-answer">See Answer</a>
+</p>
+
+
